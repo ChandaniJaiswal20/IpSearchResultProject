@@ -1,0 +1,28 @@
+INFO    2016-12-16 12:21:38,714 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Initializing Utility...........................................!!!!!
+DEBUG   2016-12-16 12:21:38,716 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - ################################################
+DEBUG   2016-12-16 12:21:38,716 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - =================================================
+DEBUG   2016-12-16 12:21:38,716 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-12-16 12:21:38,744 [main] com.search.ipsearch.app.result.PropertyReaderConfiguration  - Loading configuration file.....
+DEBUG   2016-12-16 12:21:38,753 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Obtaining Database Connection....
+INFO    2016-12-16 12:21:38,814 [main] com.search.ipsearch.app.result.DBDataProcessor  - Database Type is Oracle....
+INFO    2016-12-16 12:21:40,936 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Initializing Completed...............................................!!!!!!
+DEBUG   2016-12-16 12:21:40,936 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - =================================================
+DEBUG   2016-12-16 12:21:40,936 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - ################################################
+DEBUG   2016-12-16 12:21:41,088 [main] com.search.ipsearch.app.result.DBDataProcessor  - IP_FILE List (By Filing Date) size : 3
+DEBUG   2016-12-16 12:21:41,088 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Number of Files found for the search creteria in the properties file   :: 3
+INFO    2016-12-16 12:22:04,861 [main] com.search.ipsearch.app.result.Test  - ------- Inserting Note Action generating Office Doc for Mark : DZ/T/2016/1 ----------------
+ERROR   2016-12-16 12:22:05,218 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Exception occured while executing note action for file ..DZ/T/2016/1
+DEBUG   2016-12-16 12:22:05,219 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Processing next File...
+INFO    2016-12-16 12:22:05,280 [main] com.search.ipsearch.app.result.Test  - ------- Inserting Note Action generating Office Doc for Mark : DZ/T/2016/2 ----------------
+ERROR   2016-12-16 12:22:05,337 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Exception occured while executing note action for file ..DZ/T/2016/2
+DEBUG   2016-12-16 12:22:05,338 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Processing next File...
+INFO    2016-12-16 12:22:05,415 [main] com.search.ipsearch.app.result.Test  - ------- Inserting Note Action generating Office Doc for Mark : DZ/T/2016/3 ----------------
+ERROR   2016-12-16 12:22:05,451 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Exception occured while executing note action for file ..DZ/T/2016/3
+DEBUG   2016-12-16 12:22:05,451 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Processing next File...
+INFO    2016-12-16 12:22:05,451 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - --------------Total number of files in IP_FILE for which records in IP_SEARCH_APPL_RESULT table have been deleted -----------0
+DEBUG   2016-12-16 12:22:05,452 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Closing database connection..........!!
+DEBUG   2016-12-16 12:22:05,453 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Database connection closed..........!!
+INFO    2016-12-16 12:22:05,453 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Processing Completed.......................!!!
+INFO    2016-12-16 12:22:05,453 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - =================================================
+INFO    2016-12-16 12:22:05,453 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - Please check processed details in log file generated in log folder
+INFO    2016-12-16 12:22:05,453 [main] com.search.ipsearch.app.result.PhoneticSearchResultsPersistenceUtility  - ********************************************************
